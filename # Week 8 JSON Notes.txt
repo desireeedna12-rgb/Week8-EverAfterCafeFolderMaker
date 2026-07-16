@@ -1,0 +1,39 @@
+# Week 8 JSON Notes
+
+## What JSON Means
+JSON stands for JavaScript Object Notation. In this assignment, I am using it as a readable way to save information from my Ever After Café Folder Maker into a file. My app creates a CafeData.json file so the project information is saved even after the program closes.
+
+## What My App Needs To Remember
+- Project name: Ever After Café
+- Team member names: Desiree Kamerer Fuentes
+- Folder names: Menu, Hours, Images, Docs
+- File names: README.txt, CafeData.json
+- Last saved location: The project folder created by the app
+- Other information: Created date and total number of folders
+
+## Variables Connected To JSON
+- Variable name: CafeName
+  Data type: String
+  What it stores: The café name entered by the user
+  Why the app needs it: To name the project and save it in the JSON file
+
+- Variable name: CreatedDate
+  Data type: String
+  What it stores: The date the project was created
+  Why the app needs it: To keep track of when the project was made
+
+- Variable name: FolderCount
+  Data type: Integer
+  What it stores: The number of folders created
+  Why the app needs it: To record the project structure in the JSON file
+
+## Save Process
+1. The user enters a café name.
+2. The app stores the café information in a CafeProject object.
+3. The app converts the object into JSON using Newtonsoft.Json.
+4. The app writes the JSON to a file named CafeData.json.
+
+## Questions I Still Have
+- How can I load the JSON file back into the program when it starts?
+- How can I update the JSON file if the user changes information later?
+- How can I store more project details in the JSON file?

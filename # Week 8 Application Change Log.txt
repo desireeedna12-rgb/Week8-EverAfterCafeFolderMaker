@@ -1,0 +1,75 @@
+# Week 8 Application Change Log
+
+## App Name
+Ever After Café Folder Maker
+
+## Previous Version
+My previous Folder Maker App could:
+- Create the main project folders for the Ever After Café project.
+- Create a README.txt file with project information.
+- Display a success message after creating the project.
+
+## New Version
+This version adds:
+- JSON saving: Saves the café name, creation date, and folder count in a CafeData.json file.
+- NuGet/package use: Installed and used the Newtonsoft.Json package to serialize data into JSON format.
+- File save location: Saves CafeData.json inside the café project folder created by the app.
+- Three TODO items completed:
+  - Installed the Newtonsoft.Json NuGet package.
+  - Created the CafeProject class.
+  - Added the SaveCafeData() procedure to save project information as JSON.
+
+## TODO Items I Chose
+
+1. TODO item:
+   - What I changed: Installed the Newtonsoft.Json NuGet package.
+   - Why it improves the app: It allows the program to convert project information into JSON and save it to a file.
+
+2. TODO item:
+   - What I changed: Created the CafeProject class.
+   - Why it improves the app: It organizes the café information into one object, making it easier to save and manage.
+
+3. TODO item:
+   - What I changed: Added the SaveCafeData() procedure.
+   - Why it improves the app: It saves the café information so it is available after the program closes.
+
+## Functions And Procedures I Commented
+
+- Name: DisplayWelcome()
+  - Purpose: Displays the welcome message and asks the user to enter a café name.
+  - Inputs: None
+  - Output or result: Prompts the user for project information.
+
+- Name: CreateFolders(cafeName As String)
+  - Purpose: Creates the folder structure for the Ever After Café project.
+  - Inputs: Café name
+  - Output or result: Creates the Menu, Hours, Images, and Docs folders.
+
+- Name: CreateReadMe(cafeName As String)
+  - Purpose: Creates the README.txt file.
+  - Inputs: Café name
+  - Output or result: Generates a README.txt file inside the project folder.
+
+- Name: SaveCafeData(cafeName As String)
+  - Purpose: Saves the café information to a JSON file.
+  - Inputs: Café name
+  - Output or result: Creates a CafeData.json file containing the café name, creation date, and folder count.
+
+- Name: DisplaySuccess(cafeName As String)
+  - Purpose: Displays a confirmation message after the project has been created.
+  - Inputs: Café name
+  - Output or result: Lets the user know the project was created successfully.
+
+## Testing Notes
+
+- What worked:
+  The program successfully created the project folders, generated the README.txt file, and saved the project information in CafeData.json.
+
+- What failed:
+  At first, I had minor coding errors while adding the JSON code and opening the JSON file.
+
+- What I fixed:
+  I installed the correct NuGet package, corrected the code, and opened the JSON file with a text editor to verify that the data was saved correctly.
+
+- What I would improve in version 2.1:
+  I would add the ability to load previously saved JSON files, edit existing café projects, and allow users to customize the folders that are created.
