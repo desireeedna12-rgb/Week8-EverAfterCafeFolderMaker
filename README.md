@@ -45,7 +45,7 @@ The following documentation is included for grading:
 - Code_Examples.txt
 - README.txt
 
-If a document does not preview directly on GitHub (such as `.docx` or `.txt` files), it can still be opened by selecting the file.
+If a document does not preview directly on GitHub (such as `.docx` or `.txt` files), it can still be opened by selecting "Raw" and downloading the file
 
 ---
 
