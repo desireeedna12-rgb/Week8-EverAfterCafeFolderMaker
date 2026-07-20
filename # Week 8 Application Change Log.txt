@@ -73,3 +73,12 @@ This version adds:
 
 - What I would improve in version 2.1:
   I would add the ability to load previously saved JSON files, edit existing café projects, and allow users to customize the folders that are created.
+
+### What Changed
+For Week 8, I expanded my Ever After Café Folder Maker by adding JSON functionality. I installed the Newtonsoft.Json NuGet package, created a CafeProject class to store project information, and added a SaveCafeData() procedure that creates a CafeData.json file. I also commented my functions and procedures, updated the README, and added the required Week 8 documentation.
+
+### What the Tutorial Taught Me
+The JSON tutorial showed me how applications can save information instead of losing it when the program closes. I learned how to use the Newtonsoft.Json package to serialize an object into JSON format and write that information to a file. I also learned how NuGet packages can add useful features to an application without writing everything from scratch.
+
+### How JSON Applies to My App
+JSON allows my Ever After Café Folder Maker to save important project information after the application finishes running. When the user enters a café name, the application creates a CafeData.json file that stores the café name, the project creation date, and the number of folders created. This makes the application more useful because the information can be saved for future reference instead of being lost when the program closes.
