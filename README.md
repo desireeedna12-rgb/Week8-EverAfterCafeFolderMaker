@@ -46,7 +46,7 @@ The following documentation is included for grading:
 - README.txt
 
 If a document does not preview directly on GitHub (such as `.docx` or `.txt` files), it can still be opened by selecting "Raw" and downloading the file
-
+*Note: The App Dvelopment Documnet.docx only includes week 6/7; while the #Week 8 Application Change Log.txt includes the updated part for week 8
 ---
 
 ## Screenshots
